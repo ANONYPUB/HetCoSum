@@ -74,7 +74,7 @@ python s3_eval_cleaned_test_set.py"
 We provide part of our experiment result as below.
 - Comparison with 16 state-of-the-arts, including 12 models without pre-training and 4 pre-training-based models.
 
-![Comparison with the baselines](https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/comparison_with_baselines.png)
+<img src="https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/comparison_with_baselines.png" width="70%" height="70%" alt="Comparison with the baselines">
 
 - Qualitative examples on the Java and Python datasets.
 
