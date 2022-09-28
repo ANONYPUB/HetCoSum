@@ -64,27 +64,23 @@ python s3_eval_cleaned_test_set.py"
 
 - The main parameter settings for HetCoSum are shown as:
 
-<img src="https://github.com/ANONYMOUSPUB/IMG/tree/main/HETCOSUM/parameter_setting.png" width="50%" height="50%" alt="params">
-
-[comment]: <> (![params]&#40;https://github.com/GJCEXP/IMG/blob/main/CODESCRIBE_IMG/IMG453.png&#41;)
+<img src="https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/parameter_setting.png" width="50%" height="50%" alt="params">
 
 - The time used per epoch and the memory usage are provided as:
 
-<img src="https://github.com/ANONYMOUSPUB/IMG/tree/main/HETCOSUM/memory_usage.png" width="50%" height="50%" alt="usage">
-
-[comment]: <> (![usage]&#40;https://github.com/GJCEXP/IMG/blob/main/CODESCRIBE_IMG/IMG454.png&#41;)
+<img src="https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/memory_usage.png" width="50%" height="50%" alt="usage">
 
 # Experimental Result:
 We provide part of our experiment result as below.
 - Comparison with 16 state-of-the-arts, including 12 models without pre-training and 4 pre-training-based models.
 
-![Comparison with the baselines](https://github.com/ANONYMOUSPUB/IMG/tree/main/HETCOSUM/comparison_with_baselines.png)
+![Comparison with the baselines](https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/comparison_with_baselines.png)
 
 - Qualitative examples on the Java and Python datasets.
 
-![java_case](https://github.com/ANONYMOUSPUB/IMG/tree/main/HETCOSUM/java_case.png)
+![java_case](https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/java_case.png)
 
-![python_case](https://github.com/ANONYMOUSPUB/IMG/tree/main/HETCOSUM/python_case.png)
+![python_case](https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/python_case.png)
 
 ***This paper is still under review, please do not distribute it.***
 
