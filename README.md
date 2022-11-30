@@ -1,5 +1,5 @@
-# HetCoSum
-This work presents **HetCoSum** to leverage the syntax-structural heterogeneity and code layout information for code summarization. Specifically, we put forward a **Heterogeneous Syntax Graph Neural Network (HSGNN)** to model the **Heterogeneous Syntax Graph (HSG)** with six types of edges designed on AST. Besides, HetCoSum performs **Transformer** over the code tokens with **double-positions** to capture the code layout features. In addition, by absorbing the encoded source code vectors into the HSG encoder, the overall framework builds the relations between its two encoders for even better code comprehension. In the decoding process, we expand the decoding sub-layer in Transformer decoder and introduce a copying mechanism to support high-quality summary generation. Experiments on two real-world datasets of Java and Python programs demonstrate the superiority of our proposed HetCoSum over sixteen state-of-the-art baselines.
+# HetSum
+This work presents **HetSum** to leverage the syntax-structural heterogeneity and code layout information for code summarization. Specifically, we put forward a **Heterogeneous Syntax Graph Neural Network (HSGNN)** to model the **Heterogeneous Syntax Graph (HSG)** with six types of edges designed on AST. Besides, HetSum performs **Transformer** over the code tokens with **double-positions** to capture the code layout features. In addition, by absorbing the encoded source code vectors into the HSG encoder, the overall framework builds the relations between its two encoders for even better code comprehension. In the decoding process, we expand the decoding sub-layer in Transformer decoder and introduce a copying mechanism to support high-quality summary generation. Experiments on two real-world datasets of Java and Python programs demonstrate the superiority of our proposed HetSum over sixteen state-of-the-art baselines.
 
 # Runtime Environment
 - 4 NVIDIA 2080 Ti GPUs 
@@ -62,7 +62,7 @@ python s3_eval_cleaned_test_set.py"
 
 # More Implementation Details.
 
-- The main parameter settings for HetCoSum are shown as:
+- The main parameter settings for HetSum are shown as:
 
 <img src="https://github.com/ANONYMOUSPUB/IMG/blob/main/HETCOSUM/parameter_setting.png" width="50%" height="50%" alt="params">
 
