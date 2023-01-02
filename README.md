@@ -1,5 +1,5 @@
-# HetSum
-This work presents **HetSum** to leverage the syntax-structural heterogeneity and code layout information for code summarization. Specifically, we put forward a **Heterogeneous Syntax Graph Neural Network (HSGNN)** to model the **Heterogeneous Syntax Graph (HSG)** with six types of edges designed on AST. Besides, HetSum performs **Transformer** over the code tokens with **dual positions** to capture the code layout features. In addition, by absorbing the encoded source code vectors into the HSG encoder, the overall framework builds the relations between its two encoders for even better code comprehension. In the decoding process, we expand the decoding sub-layer in Transformer decoder and introduce a copying mechanism to support high-quality summary generation. Experiments on two real-world datasets of Java and Python programs demonstrate the superiority of our proposed HetSum over seventeen state-of-the-art baselines.
+# HetSum 
+This is the implementation of HetSum model.
 
 # Runtime Environment
 - 4 NVIDIA 2080 Ti GPUs 
