@@ -1,5 +1,5 @@
 # HetSum 
-This is the implementation of HetSum model.
+This is the source code of HetSum model.
 
 # Runtime Environment
 - 4 NVIDIA 2080 Ti GPUs 
